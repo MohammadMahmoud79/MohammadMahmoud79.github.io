@@ -1,64 +1,156 @@
-HTML
+
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>محمد محمود | الإعلام والبحث والمعرفة</title>
-<link rel="stylesheet" href="../styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="الموقع المهني لمحمد محمود، إعلامي وباحث في الدراسات الإسرائيلية والإعلام واللغة العربية.">
+  <title>محمد محمود | الإعلام والبحث والمعرفة</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-<header class="top">
-<div class="wrap nav">
-<a class="brand" href="./">محمد محمود</a>
-<nav class="navlinks">
-<a href="#about">نبذة</a>
-<a href="#media">الإعلام</a>
-<a href="#research">الأبحاث</a>
-<a href="#contact">تواصل</a>
-<a class="lang" href="../en/">English</a>
-</nav>
-</div>
+
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="./">
+      <span class="brand-mark">م</span>
+      <span>محمد محمود</span>
+    </a>
+    <nav class="navlinks">
+      <a href="#about">نبذة</a>
+      <a href="#media">الإعلام</a>
+      <a href="#research">الأبحاث</a>
+      <a href="#audio">الكتب الصوتية</a>
+      <a class="lang" href="../en/">English</a>
+    </nav>
+  </div>
 </header>
-<main>
-<section class="hero">
-<div class="wrap">
-<div class="kicker">الإعلام • البحث • المعرفة</div>
-<h1>محمد محمود</h1>
-<p>إعلامي وباحث في الدراسات الإسرائيلية، مهتم بالعلاقات الدولية والخطاب السياسي واللغة العربية والنقد الأدبي.</p>
-</div>
-</section>
-<section id="about">
-<div class="wrap">
-<h2>نبذة مهنية</h2>
-<p>خبرة في الإذاعة والتلفزيون وتقديم الأخبار، والبحث والتحليل، والعمل الأكاديمي واللغوي.</p>
-</div>
-</section>
-<section id="media">
-<div class="wrap">
-<h2>الأعمال الإعلامية</h2>
-<ul>
-<li><a href="https://youtu.be/ucqKWUjxW2U">مشاهدة الحلقة الأولى</a></li>
-<li><a href="https://youtu.be/Da2Nyr9CQKY">مشاهدة الحلقة الثانية</a></li>
-<li><a href="https://youtu.be/_XRgqddhoZE">مشاهدة الحلقة الثالثة</a></li>
-</ul>
-</div>
-</section>
-<section id="research">
-<div class="wrap">
-<h2>الأبحاث والدراسات</h2>
-<p>أبحاث في الدراسات الإسرائيلية والشرق الأوسط والخطاب السياسي، إلى جانب الدراسات العربية والنقد الأدبي.</p>
-</div>
-</section>
-<section id="contact">
-<div class="wrap">
-<h2>تواصل مهني</h2>
-<p><a href="https://www.linkedin.com/in/mohammad-husain-970792160/">صفحتي على LinkedIn</a></p>
-</div>
-</section>
+
+<main class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">الإعلام · البحث · المعرفة</p>
+      <h1>محمد محمود</h1>
+      <p>
+        إعلامي وباحث في الدراسات الإسرائيلية، مهتم بالعلاقات الدولية
+        والخطاب السياسي واللغة العربية والنقد الأدبي.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#media">اكتشف أعمالي الإعلامية</a>
+        <a class="btn btn-outline" href="#research">تعرّف إلى أبحاثي</a>
+      </div>
+    </div>
+    <div class="portrait-frame">
+      <img class="portrait"
+           src="../assets/mohammad-mahmoud.jpg"
+           alt="الصورة المهنية لمحمد محمود">
+    </div>
+  </div>
 </main>
-<footer class="wrap">
-<p>محمد محمود — الإعلام والبحث والمعرفة</p>
+
+<section class="section section-white" id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">نبذة مهنية</p>
+      <h2>الإعلام والبحث في حوار مع المعرفة</h2>
+      <p>
+        مساحة للتعريف بالمسار المهني والأعمال الإعلامية والاهتمامات البحثية،
+        تجمع بين تقديم المعلومة وتحليل السياقات السياسية والثقافية.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-icon">◈</div>
+        <h3>الإعلام والتحليل</h3>
+        <p>تقديم الأخبار ومتابعة الشؤون السياسية والإقليمية والاهتمام بسياقاتها.</p>
+      </article>
+
+      <article class="card" id="research">
+        <div class="card-icon">⌘</div>
+        <h3>الدراسات والبحث</h3>
+        <p>الدراسات الإسرائيلية والشرق الأوسط والخطاب السياسي وقضايا حقوق الإنسان والمصطلحات الدولية.</p>
+      </article>
+
+      <article class="card" id="audio">
+        <div class="card-icon">♫</div>
+        <h3>الكتب الصوتية</h3>
+        <p>أداء صوتي للكتب منذ سبتمبر 2025، في مجالات السياسة والاجتماع والنقد الأدبي والرواية.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="media">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">من الشاشة إلى القارئ</p>
+      <h2>أعمال إعلامية مختارة</h2>
+      <p>شاهد الحلقات الإعلامية من خلال الروابط التالية.</p>
+    </div>
+
+    <div class="media-list">
+      <a class="media-link" href="https://youtu.be/ucqKWUjxW2U" target="_blank" rel="noopener">
+        <span>حلقة إعلامية · 01</span>
+        <strong>مشاهدة الحلقة الأولى</strong>
+        <span>▶ مشاهدة على YouTube ↗</span>
+      </a>
+
+      <a class="media-link" href="https://youtu.be/Da2Nyr9CQKY" target="_blank" rel="noopener">
+        <span>حلقة إعلامية · 02</span>
+        <strong>مشاهدة الحلقة الثانية</strong>
+        <span>▶ مشاهدة على YouTube ↗</span>
+      </a>
+
+      <a class="media-link" href="https://youtu.be/_XRgqddhoZE" target="_blank" rel="noopener">
+        <span>حلقة إعلامية · 03</span>
+        <strong>مشاهدة الحلقة الثالثة</strong>
+        <span>▶ مشاهدة على YouTube ↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-white">
+  <div class="wrap">
+    <div class="feature-band">
+      <div>
+        <p class="eyebrow">الأبحاث والمنشورات</p>
+        <h2>قراءة أعمق في قضايا المنطقة</h2>
+        <p>
+          تشمل الاهتمامات البحثية الدراسات الإسرائيلية والشرق الأوسط
+          والخطاب السياسي، إلى جانب اللغة العربية والنقد الأدبي.
+          كما تتضمن المساهمات فصلًا في كتاب «إسرائيل والشرق الأوسط»
+          تناول قضايا حقوق الإنسان واختلاف استخدام المصطلحات.
+        </p>
+      </div>
+      <a class="btn btn-gold"
+         href="https://www.linkedin.com/in/mohammad-husain-970792160/"
+         target="_blank" rel="noopener">الملف المهني على LinkedIn ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-row">
+      <div>
+        <h2>للتواصل المهني</h2>
+        <p>للأعمال الإعلامية والبحثية وفرص التعاون المهني.</p>
+      </div>
+      <a class="btn btn-gold"
+         href="https://www.linkedin.com/in/mohammad-husain-970792160/"
+         target="_blank" rel="noopener">تواصل عبر LinkedIn ↗</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span><strong>محمد محمود</strong> — الإعلام والبحث والمعرفة</span>
+    <span><a href="../">الرئيسية</a> · <a href="../en/">English</a></span>
+  </div>
 </footer>
+
 </body>
 </html>
